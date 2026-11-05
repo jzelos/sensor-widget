@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SensorWidget.Core/SensorWidget.Core.csproj" />
+    <Project Path="src/SensorWidget/SensorWidget.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SensorWidget.Tests/SensorWidget.Tests.csproj" />
+  </Folder>
+</Solution>

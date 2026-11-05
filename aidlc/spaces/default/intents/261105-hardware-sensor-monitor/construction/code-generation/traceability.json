@@ -1,0 +1,43 @@
+{
+  "stage": "code-generation",
+  "upstream_ids": [
+    "FR1.1",
+    "FR1.2",
+    "FR1.3",
+    "FR1.4",
+    "FR1.5",
+    "FR2",
+    "FR3.1",
+    "FR3.2",
+    "FR3.3",
+    "FR4.1",
+    "FR4.2",
+    "FR4.3",
+    "FR5.1",
+    "FR5.2",
+    "FR6",
+    "NFR1",
+    "NFR2",
+    "NFR3"
+  ],
+  "coverage": [
+    { "id": "FR1.1", "status": "OK", "target": "src/SensorWidget.Core/ReadingBuilder.cs" },
+    { "id": "FR1.2", "status": "OK", "target": "src/SensorWidget.Core/ReadingBuilder.cs" },
+    { "id": "FR1.3", "status": "N/A", "target": "Removed by the person's decision: this system is fully watercooled and has no GPU fan" },
+    { "id": "FR1.4", "status": "OK", "target": "src/SensorWidget.Core/ReadingBuilder.cs" },
+    { "id": "FR1.5", "status": "OK", "target": "src/SensorWidget.Core/ReadingBuilder.cs" },
+    { "id": "FR2", "status": "OK", "target": "src/SensorWidget.Core/WidgetViewModel.cs" },
+    { "id": "FR3.1", "status": "OK", "target": "src/SensorWidget/MainWindow.xaml" },
+    { "id": "FR3.2", "status": "OK", "target": "src/SensorWidget/MainWindow.xaml.cs" },
+    { "id": "FR3.3", "status": "OK", "target": "src/SensorWidget/MainWindow.xaml.cs" },
+    { "id": "FR4.1", "status": "OK", "target": "src/SensorWidget.Core/ReadingBuilder.cs" },
+    { "id": "FR4.2", "status": "OK", "target": "src/SensorWidget.Core/WidgetViewModel.cs" },
+    { "id": "FR4.3", "status": "OK", "target": "src/SensorWidget.Core/TemperatureLimits.cs" },
+    { "id": "FR5.1", "status": "OK", "target": "src/SensorWidget.Core/ReadingBuilder.cs" },
+    { "id": "FR5.2", "status": "OK", "target": "src/SensorWidget.Core/WidgetViewModel.cs" },
+    { "id": "FR6", "status": "OK", "target": "src/SensorWidget/app.manifest" },
+    { "id": "NFR1", "status": "OK", "target": "src/SensorWidget/MainWindow.xaml" },
+    { "id": "NFR2", "status": "Deferred", "target": "Not measured yet: needs the running app on the real PC, checked in Build and Test" },
+    { "id": "NFR3", "status": "OK", "target": "tests/SensorWidget.Tests/ConfigurationAndSecurityTests.cs" }
+  ]
+}
